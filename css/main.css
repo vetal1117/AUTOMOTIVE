@@ -1,4 +1,5 @@
 .main {
+  display: none;
   background-color: #e70d0d;
 }
 
@@ -44,7 +45,7 @@
   position: absolute;
   right: 0;
   top: 80px;
-  padding: 30px 10px 30px 10px;
+  padding: 10px 10px 0px 10px;
   border: 1px solid #000;
   -webkit-box-shadow: 2px 2px 2px;
           box-shadow: 2px 2px 2px;
