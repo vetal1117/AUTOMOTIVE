@@ -1,7 +1,11 @@
-.pricing__body {
+.pricing {
   padding: 60px 100px 0px 100px;
+}
+
+.pricing__body {
+  display: none;
   text-align: center;
-  background-color: #817f8b;
+  background-color: #fff;
 }
 
 .pricing__body-title {
@@ -42,7 +46,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid #000;
 }
 
 .pricing .items__top-text {

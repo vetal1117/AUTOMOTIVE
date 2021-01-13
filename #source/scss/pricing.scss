@@ -1,15 +1,13 @@
 .pricing {
+	padding: 60px 100px 0px 100px;
    &__body {
-      padding: 60px 100px 0px 100px;
+      display: none;
       text-align: center;
-      background-color: #817f8b;
+      background-color: #fff;
    }
 
    &__body-title {
       margin-bottom: 60px;
-   }
-
-   &__body-title--title {
    }
 
    &__cards {
@@ -35,7 +33,7 @@
       background-color: #fff;
       display: flex;
       flex-direction: column;
-      border: 1px solid #000;
+     // border: 1px solid #000;
 
       &__top-text {
          font-size: 22px;
