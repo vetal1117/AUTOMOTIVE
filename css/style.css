@@ -432,6 +432,20 @@ h6 {
   color: #b5b5b5;
 }
 
+.services__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.services__image-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .pricing {
   padding: 60px 100px 65px 100px;
 }
