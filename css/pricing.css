@@ -1,0 +1,87 @@
+.pricing {
+  padding: 60px 100px 0px 100px;
+}
+
+.pricing__body {
+  display: none;
+  text-align: center;
+  background-color: #fff;
+}
+
+.pricing__body-title {
+  margin-bottom: 60px;
+}
+
+.pricing__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px -10px;
+}
+
+.pricing__cards :nth-child(2) a {
+  color: red;
+}
+
+.pricing__cards :nth-child(2) div {
+  background-color: #fff;
+  color: #000;
+}
+
+.pricing__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  padding: 0px 10px;
+}
+
+.pricing .title {
+  font-size: 50px;
+}
+
+.pricing .items {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pricing .items__top-text {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 30px 0px;
+}
+
+.pricing .items__title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #c62314;
+  padding-bottom: 30px;
+}
+
+.pricing .items__text {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.pricing .items__link {
+  width: 80%;
+  margin: auto;
+  font-size: 30px;
+  padding: 5px 3px;
+  background-color: #1d1d1d;
+  border-radius: 5px;
+}

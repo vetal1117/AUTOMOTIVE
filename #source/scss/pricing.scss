@@ -1,0 +1,75 @@
+.pricing {
+	padding: 60px 100px 0px 100px;
+   &__body {
+      display: none;
+      text-align: center;
+      background-color: #fff;
+   }
+
+   &__body-title {
+      margin-bottom: 60px;
+   }
+
+   &__cards {
+      display: flex;
+      margin: 0px -10px;
+      :nth-child(2){
+         a{
+            color: red;
+         }
+      }
+      :nth-child(2){
+         div{
+           background-color: #fff;
+           color: #000;
+         }
+      }
+   }
+
+   &__card {
+      display: flex;
+      flex: 0 1 33.333%;
+      padding: 0px 10px;
+   }
+
+   .title {
+      font-size: 50px;
+   }
+   .items {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+     // border: 1px solid #000;
+
+      &__top-text {
+         font-size: 22px;
+         font-weight: 600;
+         padding: 30px 0px;
+      }
+
+      &__title {
+         font-size: 60px;
+         font-weight: 700;
+         color: #c62314;
+         padding-bottom: 30px;
+      }
+
+      &__text {
+         width: 80%;
+         margin: auto;
+         font-size: 20px;
+         font-weight: 600;
+         line-height: 34px;
+         flex: 1 1 auto;
+      }
+
+      &__link {
+         width: 80%;
+         margin: auto;
+         font-size: 30px;
+         padding: 5px 3px;
+         background-color: #1d1d1d;
+         border-radius: 5px;
+      }
+   }
+}
