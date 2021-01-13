@@ -3,6 +3,7 @@
 }
 
 .pricing__body {
+  display: none;
   text-align: center;
   background-color: #fff;
 }

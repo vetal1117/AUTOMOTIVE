@@ -1,1 +1,75 @@
-/* No CSS */
+.testi__testi-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testi__testimonial {
+  max-width: 490px;
+}
+
+.testi__testimonial :nth-child(2) {
+  background-color: #8f8484;
+}
+
+.testi__title {
+  text-align: center;
+}
+
+.testi__item {
+  max-width: 490px;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.testi__text {
+  width: 70%;
+  font-family: PTSerif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #161616;
+  margin-bottom: 15px;
+}
+
+.testi__text2 {
+  width: 70%;
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #130e27;
+}
+
+.testi__img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30%;
+}
+
+.testi__gallery {
+  width: 400px;
+  margin: 0px 20px;
+}
+
+.testi__galleri-title {
+  text-align: center;
+}
+
+.testi__gallary-link {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.title {
+  margin-bottom: 50px;
+}

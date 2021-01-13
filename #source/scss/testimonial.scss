@@ -1,36 +1,80 @@
 .testi {
-}
-.container {
-}
-.testi-body {
-}
-.testimonial {
 
-		&__title {
-		}
+   &__testi-body {
+      display: flex;
+      padding: 100px 0px;
+      justify-content: space-between;
+   }
 
-		&__text {
-		}
 
-		&__text2 {
-		}
 
-		&__img {
-		}
+   &__testimonial {
+      max-width: 490px;
+      :nth-child(2){
+         background-color: rgb(143, 132, 132);
+      }
+   }
+
+   &__title {
+      text-align: center;
+   }
+
+   &__item {
+      max-width: 490px;
+      position: relative;
+      margin-bottom: 60px;
+   }
+
+   &__text {
+      width: 70%;
+      font-family: PTSerif;
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      color: #161616;
+      margin-bottom: 15px;
+   }
+
+   &__text2 {
+      width: 70%;
+      font-family: Montserrat;
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #130e27;
+   }
+
+   &__img {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 30%;
+   }
+
+
+
+   &__gallery {
+      width: 400px;
+      margin: 0px 20px;
+   }
+
+   &__galleri-title {
+      text-align: center;
+   }
+
+   &__gallary-images {
+   }
+
+   &__gallary-link {
+      margin-top: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 600;
+   }
 }
+
 .title {
-}
-.gallery {
-
-		&__title {
-		}
-
-		&__images-column {
-		}
-
-		&__images-row {
-		}
-
-		&__link {
-		}
+   margin-bottom: 50px;
 }
