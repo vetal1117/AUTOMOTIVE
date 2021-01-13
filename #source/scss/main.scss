@@ -1,8 +1,9 @@
 .main {
-	padding: 136px 0px 152px 0px;
+	padding: 216px 0px 152px 0px;
 	background-color: rgb(231, 13, 13);
-
+   display: none;
 	&__body {
+      
 		display: flex;
 		justify-content: space-between;
 		position: relative;

@@ -1,7 +1,7 @@
 .pricing {
 	padding: 60px 100px 65px 100px;
    &__body {
-      // display: none;
+       display: none;
       text-align: center;
       background-color: #fff;
    }
@@ -26,9 +26,7 @@
       padding: 0px 10px;
    }
 
-   .title {
-      font-size: 50px;
-   }
+   
    .items {
       background-color: #fff;
       display: flex;
@@ -66,6 +64,9 @@
          border-radius: 5px;
       }
    }
+}
+.title {
+   font-size: 50px;
 }
 
 

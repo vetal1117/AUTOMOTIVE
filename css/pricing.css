@@ -3,6 +3,7 @@
 }
 
 .pricing__body {
+  display: none;
   text-align: center;
   background-color: #fff;
 }
@@ -30,10 +31,6 @@
       -ms-flex: 0 1 33.333%;
           flex: 0 1 33.333%;
   padding: 0px 10px;
-}
-
-.pricing .title {
-  font-size: 50px;
 }
 
 .pricing .items {
@@ -78,4 +75,8 @@
   padding: 5px 3px;
   background-color: #1d1d1d;
   border-radius: 5px;
+}
+
+.title {
+  font-size: 50px;
 }
