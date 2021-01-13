@@ -340,10 +340,6 @@ h1, h2, h3, h4, h5, h6 {
 .pricing__cards :nth-child(2) a {
   color: red;
 }
-.pricing__cards :nth-child(2) div {
-  background-color: #fff;
-  color: #000;
-}
 .pricing__card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -397,6 +393,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
 }
 
+@impo @import "footer.scss";
 .form-row {
   display: -webkit-box;
   display: -ms-flexbox;

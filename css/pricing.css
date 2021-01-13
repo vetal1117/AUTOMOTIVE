@@ -19,11 +19,6 @@
   color: red;
 }
 
-.pricing__cards :nth-child(2) div {
-  background-color: #fff;
-  color: #000;
-}
-
 .pricing__card {
   display: -webkit-box;
   display: -ms-flexbox;
