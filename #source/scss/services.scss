@@ -1,0 +1,39 @@
+.services {
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__title {
+	}
+
+	&__image-row {
+		display: flex;
+	}
+
+	&__image-column {
+	}
+
+	&__content {
+	}
+
+	&__info {
+	}
+
+	&__btn {
+	}
+}
+
+.title {
+}
+.image-column {
+
+	&__img {
+	}
+}
+.image {
+
+	&__column {
+	}
+}

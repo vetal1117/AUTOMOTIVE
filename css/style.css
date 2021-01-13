@@ -431,6 +431,20 @@ h6 {
   color: #b5b5b5;
 }
 
+.services__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.services__image-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .pricing {
   padding: 60px 100px 65px 100px;
 }
@@ -458,9 +472,6 @@ h6 {
       -ms-flex: 0 1 33.333%;
           flex: 0 1 33.333%;
   padding: 0px 10px;
-}
-.pricing .title {
-  font-size: 50px;
 }
 .pricing .items {
   background-color: #fff;
@@ -500,5 +511,9 @@ h6 {
   padding: 5px 3px;
   background-color: #1d1d1d;
   border-radius: 5px;
+}
+
+.title {
+  font-size: 50px;
 }
 /*# sourceMappingURL=style.css.map */

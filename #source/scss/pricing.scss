@@ -26,9 +26,7 @@
       padding: 0px 10px;
    }
 
-   .title {
-      font-size: 50px;
-   }
+
    .items {
       background-color: #fff;
       display: flex;
@@ -65,10 +63,13 @@
          background-color: #1d1d1d;
          border-radius: 5px;
       }
-   }
+	}
+
 }
 
-
+	.title {
+      font-size: 50px;
+   }
 
 
 
