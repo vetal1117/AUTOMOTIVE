@@ -10,17 +10,20 @@
 
    &__testimonial {
       max-width: 490px;
-      :nth-child(2){
-         background-color: rgb(143, 132, 132);
-      }
    }
 
    &__title {
       text-align: center;
    }
 
+   .testi {
+
+		&__bg {background-color: rgb(218, 35, 35);
+		}
+}
+
    &__item {
-      max-width: 490px;
+      max-width: 430px;
       position: relative;
       margin-bottom: 60px;
    }

@@ -517,14 +517,14 @@ h6 {
 .testi__testimonial {
   max-width: 490px;
 }
-.testi__testimonial :nth-child(2) {
-  background-color: #8f8484;
-}
 .testi__title {
   text-align: center;
 }
+.testi .testi__bg {
+  background-color: #da2323;
+}
 .testi__item {
-  max-width: 490px;
+  max-width: 430px;
   position: relative;
   margin-bottom: 60px;
 }
