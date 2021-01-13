@@ -1,1 +1,83 @@
-/* No CSS */
+.services__title {
+  padding: 50px 0px 0px 0px;
+  margin-bottom: 50px;
+}
+
+.services__title span {
+  color: red;
+}
+
+.services__image-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.services__image-column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+}
+
+.services__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #130e27;
+  height: 125px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services__info {
+  max-width: 550px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.services__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: red;
+  padding: 20px 60px 20px 60px;
+  border-radius: 5px;
+}
+
+.services__btn a {
+  color: #fff;
+}
+
+.image-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.image-column__img {
+  margin-bottom: 80px;
+}
+
+.image-column__text {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}

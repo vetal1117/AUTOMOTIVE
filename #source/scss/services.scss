@@ -1,31 +1,73 @@
 .services {
 
 	&__body {
+      
 	}
 
 	&__title {
+      padding: 50px 0px 0px 0px;
+      margin-bottom: 50px;
+      span{
+         color:red;
+      }
 	}
 
 	&__image-row {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      
+      
 	}
 
-	&__image-column {
+
+
+   &__image-column {flex: 0 1 20%;
+      
 	}
+
+
+
 
 	&__content {
+      display: flex;
+background: #130e27;
+      height: 125px;
+      justify-content: space-around;
+      align-items: center;
+      
 	}
 
-	&__info {
+   &__info {
+      max-width: 550px;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      color: #ffffff;
 	}
 
-	&__btn {
+	&__btn {display: flex;
+      a{
+         color: #fff;}
+      background-color: red;
+      padding: 20px 60px 20px 60px;
+      border-radius: 5px ;
 	}
 }
 .image-column {
-
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
 	&__img {
+      margin-bottom: 80px;
 	}
 
 	&__text {
+font-size: 20px;
+font-weight: 500;
+letter-spacing: -0.02em;align-self: flex-end;
+
+      
 	}
 }
