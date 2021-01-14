@@ -1,6 +1,7 @@
 .main {
   padding: 216px 0px 152px 0px;
-  background-color: #e70d0d;
+  background-color: #c62314;
+  display: none;
 }
 
 .main__body {

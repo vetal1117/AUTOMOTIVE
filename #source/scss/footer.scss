@@ -1,5 +1,19 @@
-footer{}
-//====================================================================================================
+.footer {
 
-//====================================================================================================
+   &__body {display: flex;
+      justify-content: space-around;
+      background-color: #130e27;
+      height: 180px;
+      align-items: center;
+   }
 
+   &__policy {
+font-family: PTSerif;
+font-size: 20px;
+line-height: 22px;
+font-weight: 400;
+letter-spacing: -0.02em;
+color: #ffffff;
+span{color: red;}
+   }
+}
